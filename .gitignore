@@ -1,72 +1,74 @@
+# ============================
+# PYTHON CACHE & TEMP FILES
+# ============================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.db
-*.sqlite3
-*.log
-*.env
-.venv/
-.env/
-.DS_Store
-*.h5
-*.mp3
-*.wav
-ngrok.exe
-key.pem
-cert.pem
-profile.jpg.jpg
-# Python cache files
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Databases
-*.db
-*.sqlite3
-
-# Logs
 *.log
 
-# Virtual environments
+# ============================
+# VIRTUAL ENVIRONMENTS
+# ============================
 .venv/
 env/
 venv/
 
-# Environment variables
+# ============================
+# ENVIRONMENT VARIABLES
+# ============================
 .env
 .env/
 
-# OS files
+# ============================
+# OS FILES
+# ============================
 .DS_Store
 Thumbs.db
 
-# Machine learning models / training data
-*.h5
-*.hdf5
-*.ckpt
-*.pkl
-*.npy
+# ============================
+# IMPORTANT: 
+# DO NOT IGNORE ML/MODEL FILES
+# Render NEEDS these:
+#   english_fulfulde_final.h5
+#   eng_tokenizer.pkl
+#   ful_tokenizer.pkl
+#   train_data.pkl
+# ============================
 
-# Audio files
-*.mp3
-*.wav
+# (Removed the following so ML files upload correctly)
+# *.h5
+# *.hdf5
+# *.ckpt
+# *.pkl
+# *.npy
+# *.mp3
+# *.wav
 
-# Security keys and certificates
+# ============================
+# SECURITY / CERT FILES
+# ============================
 key.pem
 cert.pem
 
-# Images we don’t want public
+# ============================
+# PERSONAL IMAGES (optional)
+# ============================
 profile.jpg.jpg
 
-# Tools/binaries
+# ============================
+# TOOLS / BINARIES
+# ============================
 ngrok.exe
 
-# VS Code workspace files
+# ============================
+# VS CODE
+# ============================
 .vscode/
 *.code-workspace
 
-# Build / Deployment artifacts
+# ============================
+# BUILD / DEPLOY ARTIFACTS
+# ============================
 dist/
 build/
