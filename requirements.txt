@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+numpy
+tensorflow-cpu
+num2words
+gtts
+TTS
+pydantic
+python-multipart

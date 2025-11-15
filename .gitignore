@@ -1,0 +1,72 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.env
+.venv/
+.env/
+.DS_Store
+*.h5
+*.mp3
+*.wav
+ngrok.exe
+key.pem
+cert.pem
+profile.jpg.jpg
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Databases
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Environment variables
+.env
+.env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Machine learning models / training data
+*.h5
+*.hdf5
+*.ckpt
+*.pkl
+*.npy
+
+# Audio files
+*.mp3
+*.wav
+
+# Security keys and certificates
+key.pem
+cert.pem
+
+# Images we don’t want public
+profile.jpg.jpg
+
+# Tools/binaries
+ngrok.exe
+
+# VS Code workspace files
+.vscode/
+*.code-workspace
+
+# Build / Deployment artifacts
+dist/
+build/
